@@ -2523,12 +2523,21 @@
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
-			width: 100%;
+			width: 60%;
+			margin-left: auto;
+    		margin-right: auto;
 		}
 
 			.image.fit img {
 				width: 100%;
 			}
+			.image.round {
+				border-radius: 100%;
+			}
+	
+				.image.round img {
+					border-radius: 100%;
+				}
 
 		.image.main {
 			display: block;
